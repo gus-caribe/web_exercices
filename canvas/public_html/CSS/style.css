@@ -1,0 +1,24 @@
+/* 
+    Created on : 18 de nov. de 2020, 19:48:17
+    Author     : Gustavo Caribe, 833588
+*/
+
+#siteCanvas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 100%;
+    border: 1px solid #d3d3d3;
+}
+
+h1, h6, h2 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

@@ -1,0 +1,166 @@
+/*Gustavo Cardoso Ribeiro*/
+/*833588*/
+
+
+body {
+    background-color: #f9dc7c;
+}
+    
+#header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+    
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a36629;
+}
+        
+#navbar li {
+    float: left;
+}
+            
+#navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#navbar li a:hover:not(.active){
+    background-color: #7a4d1f;
+}
+    
+#side {
+    float: right;
+    background-color: #fff4d3;
+    width: 28%;
+}
+
+#side h2{
+    text-align: center;
+}
+
+#side h4{
+    text-align: left;
+    font-size: 100%;
+    text-indent: 2em;
+}
+            
+#side ul {
+    font-weight: normal;
+    text-align: left;
+    font-size: 100%;
+}
+
+#side button {
+    float: right;
+    display: block;
+    background-color: #a36629;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin: 20px;
+    padding: 5px 10px;
+}
+
+#side button:hover {
+    background-color: #7a4d1f;
+    cursor: pointer;
+}
+        
+#content {
+    background-color: #fff4d3;
+    width: 70%;
+}
+            
+#content h1 {
+    text-align: center;
+}
+
+#content h6 {
+    text-align: center;
+    font-weight: normal;
+    
+}
+
+#content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+#content p {
+    font-weight: normal;
+    font-size: 100%;
+    text-indent: 2em;
+    text-align: justify;
+}
+
+#content h2 {
+    text-align: center;
+}
+
+#content iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.card {
+    width: 70%;
+    background-color: #fff4d3;
+}
+
+.card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.card h4 {
+    text-align: center;
+}
+
+.card button {
+    display: block;
+    background-color: #a36629;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    margin: 0;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.card button:hover {
+    background-color: #7a4d1f;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #7a4d1f;
+    color: #FFF;
+    width: 100%;
+    padding: 50px 0px;  
+    text-align: center;
+}

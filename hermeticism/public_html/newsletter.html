@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--
+Gustavo Cardoso Ribeiro;
+833588;
+-->
+
+<html>
+    <head>
+        <title>Assine nossa Newsletter</title>
+        <link rel="stylesheet" href="CSS/styleNewsletter.css">
+        <script src="JS/script.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/header.jpg">
+    </head>
+    <body>
+        <div id="header">
+            <img src="images/logo.jpg" alt="Logo">
+        </div>
+
+        <ul id="navbar">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="7principios.html">Os 7 Princípios</a></li>
+            <li><a href="recomendacoes.html">Recomendações de Leitura</a></li>
+        </ul>
+
+        <div id="middle">
+            <h1><br>Confira nossos Planos</h1>
+
+            <table>
+                <tr>
+                    <th></th>
+                    <th>FIDELIS</th>
+                    <th>IMMACULATAE</th> 
+                    <th>SANCTVM</th>
+                </tr>
+                <tr>
+                    <td>Obtenha técnicas de concentração diárias e feitiços semanalmente.</td>
+                    <td>✔</td>
+                    <td>✔</td>
+                    <td>✔</td>
+                </tr>
+                <tr>
+                    <td>Obtenha técnicas para criação de seres mentais semanalmente.</td>
+                    <td>❌</td>
+                    <td>✔</td>
+                    <td>✔</td>
+                </tr>
+                <tr>
+                    <td>Receba orientação personalizada de veneráves mestres do Hermetismo.</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>✔</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Free</td>
+                    <td>R$5,00/mês</td>
+                    <td>R$20,00/mês</td>
+                </tr>
+            </table>
+
+            <h1>Assine Já</h1>
+
+            <form>
+                <label for="nome">Primeiro nome:</label><br>
+                <input type="text" id="nome" name="nome" required onchange="complementa()"><br><br>
+                <label for="sobrenome">Sobrenome:</label><br>
+                <input type="text" id="sobrenome" name="sobrenome" required onchange="complementa()"><br><br>
+                <label for="completo">Nome completo:</label><br>
+                <input type="text" id="completo" name="completo" readonly><br><br>
+                <label for="email">E-mail:</label><br>
+                <input type="text" id="email" name="email" required><br><br><br>
+                <label>Escolha o Plano:</label><br><br>
+                <input type="radio" id="fidelis" name="plano" value="fidelis" checked>
+                <label for="fidelis">Fidelis</label><br>
+                <input type="radio" id="immaculatae" name="plano" value="immaculatae" onclick="pago()">
+                <label for="immaculatae">Immaculatae</label><br>
+                <input type="radio" id="sanctvm" name="plano" value="sanctvm" onclick="pago()">
+                <label for="sanctvm">Sanctvm</label><br><br><br>
+                <input type="checkbox" id="privacidade" name="privacidade" value="concordo" required>
+                <label for="privacidade"> Eu concordo com os <a href="privacidade.html">Termos de Privacidade</a> do Sapientiam Sanctorvm.</label><br><br><br>
+                <input class="button" type="reset" value="Cancelar"><br>
+                <input class="button" type="submit" value="Increver-se">
+            </form>
+
+            <p><br></p>
+
+        </div>
+
+        <br>
+
+        <div id="footer">
+            <footer>
+                Desenvolvido por: Gustavo Cardoso Ribeiro<br>
+                Código de matrícula: 833.588<br>
+                E-mail para contato: gustavo.ribeiro@sou.unaerp.edu.br
+            </footer>
+        </div>
+    </body>
+</html>
